@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	read "github.com/ctangarife/connect_mq/consume"
+)
 
 func main() {
-	fmt.Println("Iniciando flujo")
+
+	read.GetMessage()
+
 }
