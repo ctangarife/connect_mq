@@ -6,8 +6,12 @@ Este repositorio está pensado para comprobar el tiempo de consumo de un canal d
 ### Archivos
 
 | Archivo  | Función |
+| -------- | -------- |
 | credentials.yml | Arhico con las credenciales para conectarse al servidor de rabbitmq | 
 
 ### Recursos
 
-Para consutrir el servicio se siguió la guia de "https://programmerclick.com/article/52231505126/"
+Para consutrir el servicio se siguió la guia de [Tutorial introductorio de Go Language: Golang y RabbitMQ][article_rabbit]
+
+
+[article_rabbit]: <https://programmerclick.com/article/52231505126/>
