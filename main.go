@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	rabbit "github.com/ctangarife/connect_mq/consume"
+	utl "github.com/ctangarife/connect_mq/utils"
+)
 
 func main() {
-	fmt.Println("Iniciando flujo")
+
+	conf, err := utl.ReadConf("config/config.yml")
+	if err != nil {
+		panic(err)
+	}
+	rabbit.Worker(conf.Monitor.Queue)
+
 }
