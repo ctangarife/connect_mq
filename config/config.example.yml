@@ -1,0 +1,9 @@
+credentials:
+  user: user
+  pass: pass
+  host: localhost
+  port: "5672"
+  env: "local."
+
+#Colas a monitorear
+queue: ["queue1", "queue2"]

@@ -13,6 +13,10 @@ type ConfigData struct {
 		Pwd  string `yaml:"pass"`
 		Host string `yaml:"host"`
 		Port string `yaml:"port"`
+		Env  string `yaml:"env"`
+	}
+	Monitor struct {
+		Queue []string `yaml:"queue"`
 	}
 }
 
